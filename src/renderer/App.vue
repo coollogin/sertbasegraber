@@ -13,6 +13,8 @@
 
     <div id="main">
 
+        
+
       <div class="row start">
 
           <div v-if="!isProgress &&!viewNow">
@@ -29,7 +31,7 @@
       </div>
 
       <br>
-  
+
       <div class="row">
           <div class="col s6">
             <div  class="btn" @click="mySaveToExcell()">Сохранить в Excel</div>
